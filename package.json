@@ -1,6 +1,6 @@
 {
   "name": "nuxt-device-module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Device detection module for Nuxt.js",
   "repository": "https://github.com/xinpianchang/nuxt-device-module",
   "license": "MIT",
