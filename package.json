@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-device-module",
+  "version": "0.0.1",
+  "description": "Device detection module for Nuxt.js",
+  "repository": "https://github.com/xinpianchang/nuxt-device-module",
+  "license": "MIT",
+  "author": "fe@xinpianchang.com",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/module.js",
+  "types": "lib/types.d.ts",
+  "scripts": {
+    "lint": "eslint --ext .js lib",
+    "new-version": "standard-version",
+    "release": "git push --follow-tags && npm publish"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "eslint": "^7.24.0",
+    "nuxt-edge": "^2.15.0-26889155.dd0eea40",
+    "standard-version": "^9.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "defu": "3.2.2"
+  }
+}
