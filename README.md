@@ -6,6 +6,8 @@ device-module for nuxt
 
 * isWeibo
 * isWeixin
+* isIosWeixin
+* isAndroidWeixin
 * isXpcApp
 * isVmovierApp
 

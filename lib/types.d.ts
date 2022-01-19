@@ -12,6 +12,8 @@ interface Device {
   isDesktopOrTablet: boolean
   isTablet: boolean
   isWeibo: boolean
+  isIosWeixin: boolean
+  isAndroidWeixin: boolean
   isWeixin: boolean
   isXpcApp: boolean
   isVmovierApp: boolean
