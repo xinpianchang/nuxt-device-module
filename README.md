@@ -9,6 +9,8 @@ device-module for nuxt
 * isIosWeixin
 * isAndroidWeixin
 * isXpcApp
+* isAndroidXpcApp
+* isIosXpcApp
 * isVmovierApp
 
 
